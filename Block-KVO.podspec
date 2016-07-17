@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.source_files = "Sources", "Sources/**/*"
   s.public_header_files = "MTKObserving.h"
   s.requires_arc = true
-#  s.ios.deployment_target = '5.0'
+  s.ios.deployment_target = '5.0'
+  s.tvos.deployment_target = '9.0'
 end
